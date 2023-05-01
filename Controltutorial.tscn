@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scrips/Control.gd" type="Script" id=1]
+[ext_resource path="res://assets/teste_background_4.png" type="Texture" id=2]
+
+[node name="dialogotutotial" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="backgound" type="Sprite" parent="."]
+
+[node name="TesteBackground4" type="Sprite" parent="backgound"]
+position = Vector2( 511.875, 298.875 )
+scale = Vector2( 0.535268, 0.557123 )
+texture = ExtResource( 2 )

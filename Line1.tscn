@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scene/Letter1.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scrips/Line1.gd" type="Script" id=2]
+
+[node name="Line1" type="HBoxContainer"]
+margin_top = 293.0
+margin_right = 1024.0
+margin_bottom = 307.0
+alignment = 1
+script = ExtResource( 2 )
+
+[node name="Letter1" parent="." instance=ExtResource( 1 )]
+margin_left = 406.0
+margin_right = 456.0
+
+[node name="Letter2" parent="." instance=ExtResource( 1 )]
+margin_left = 460.0
+margin_right = 510.0
+
+[node name="Letter3" parent="." instance=ExtResource( 1 )]
+margin_left = 514.0
+margin_right = 564.0
+
+[node name="Letter4" parent="." instance=ExtResource( 1 )]
+margin_left = 568.0
+margin_right = 618.0

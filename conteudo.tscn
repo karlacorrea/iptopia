@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scene/conteudo.gd" type="Script" id=1]
+[ext_resource path="res://assets/teste_background_4.png" type="Texture" id=2]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_horizontal_guides_": [ 594.0 ],
+"_edit_vertical_guides_": [ 1025.0 ]
+}
+
+[node name="TesteBackground4" type="Sprite" parent="."]
+position = Vector2( 513.992, 297.5 )
+scale = Vector2( 0.533064, 0.552266 )
+texture = ExtResource( 2 )
